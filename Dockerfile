@@ -14,7 +14,7 @@ WORKDIR /var/www/html
 
 RUN rm -rf *
 
-ADD projCert projCert
+ADD website website
 
 ENTRYPOINT ["/usr/sbin/apache2ctl"]
 
